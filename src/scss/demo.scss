@@ -49,7 +49,7 @@ body{
     margin-left: 150px;
     display: flex;
     align-items: center;
-    padding: 30px 0px 120px;
+    padding: 30px 0px 50px;
 
     &__logo{
       margin-right: 157px;
@@ -220,3 +220,49 @@ body{
 
 }
 
+
+
+
+.ilust2{
+  position: absolute;
+  width: 508.12px;
+  height: 414.71px;
+  left: 184.52px;
+  top: 960.38px;
+
+}
+.List{
+
+  position: absolute;
+  width: 427.88px;
+  height: 60px;
+  left: 862.12px;
+  top: 1014.38px;
+
+  &__title{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: $text-color;
+    padding-bottom: 20px;
+  }
+  &__text{
+    font-size: 16px;
+    line-height: 30px;
+    color: $second-text-color;
+    
+  }
+}
+.vectorgreen{
+  display: flex;
+  padding-top: 20px;
+  
+  &__vector{
+    max-width: 20px;
+    
+  }
+  &__text{
+    color: $second-text-color;
+    padding-left: 12px;
+  }
+}
