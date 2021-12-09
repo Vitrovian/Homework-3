@@ -3,7 +3,6 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
-
 .page-header{
   &__title{ 
     cursor: default;
@@ -42,7 +41,6 @@ body{
     }
   }
 }
-
 
 .page-top{
     margin-top: 30px;
@@ -96,7 +94,6 @@ body{
     }
 }
 
-
 .button{
   white-space: nowrap;
   margin-left: 150px;
@@ -113,7 +110,6 @@ body{
   }
 
 }
-
 
 .button1{
   white-space: nowrap;
@@ -139,7 +135,6 @@ body{
   
 }
 
-
 .illustration{
   position: absolute;
   width: 611.24px;
@@ -148,7 +143,6 @@ body{
   top: 179.11px;
 
 }
-
 
 .button2{
   position: absolute;
@@ -166,7 +160,7 @@ body{
   line-height: 25px;
   font-weight: 700;
 
-  box-shadow: 0px 25px 45px rgba(245, 56, 56, 0.35);
+  box-shadow: 0px 25px 45px rgba(245, 56, 56, 0.35);;
 
   transition: all ease .4s;
    &:hover{
@@ -220,9 +214,6 @@ body{
 
 }
 
-
-
-
 .ilust2{
   position: absolute;
   width: 508.12px;
@@ -231,6 +222,7 @@ body{
   top: 960.38px;
 
 }
+
 .List{
 
   position: absolute;
@@ -253,6 +245,7 @@ body{
     
   }
 }
+
 .vectorgreen{
   display: flex;
   padding-top: 20px;
@@ -265,4 +258,159 @@ body{
     color: $second-text-color;
     padding-left: 12px;
   }
+}
+
+.page-two{
+  min-width: 100%;
+  position: absolute;
+  width: 1440.16px;
+  height: 2083.2px;
+  left: 0.86px;
+  top: 1506.28px;
+  background: linear-gradient(180deg, #e9e6e6fb -45.04%, rgba(248, 248, 248, 0) 88.56%);
+  &__title{ 
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: $text-color;
+    cursor: default;
+  }
+  &__title2{ 
+    margin-top: 150px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: $text-color;
+    cursor: default;
+  }
+  &__subtitle{
+
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: $second-text-color;
+    padding-top: 20px;
+    cursor: default;
+  }
+  &__map{
+    margin-left: 190px;
+    margin-top: 155px;
+  }
+
+  
+
+}
+
+.price-plan-position{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 174px;
+  margin-right: 174px;
+  
+}
+
+.rectangle-price-plan{
+  display: flex;
+  flex-flow: column;
+  cursor: default;
+  margin-top: 60px;
+  width: 330px;
+  height: 770px;
+  background-color: #ffffff;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+}
+
+.rectangle-plan{
+  
+  &__product{
+    //display: flex;
+
+    &__box{
+       margin-top: 80px;
+       margin-left: 92px;
+    }
+    &__title{
+      text-align: center;
+      margin-top: 30px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      color: $text-color;
+    }
+    &__description{
+      margin-top: 30px;
+      padding-left: 75px;
+      display: flex;
+      text-indent: 25px;
+      color: $second-text-color;
+    }
+    &__description1{
+      margin-top: 20px;
+      padding-left: 75px;
+      display: flex;
+      text-indent: 25px;
+      color: $second-text-color;
+    }
+    &__price{
+      text-align: center;
+      margin-top: 130px;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 30px;
+      color: $text-color;
+
+    }
+    &__price2{
+      text-align: center;
+      margin-top: 90px;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 30px;
+      color: $text-color;
+
+    }
+    &__price3{
+      text-align: center;
+      margin-top: 50px;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 30px;
+      color: $text-color;
+
+    }
+    &__position-buttom{
+      margin-top: 30px;
+      margin-left: 42px;
+      &__button{
+      
+        white-space: nowrap;
+        margin-left: 30px;
+        font-family: Rubik;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+
+        color: $color-three;
+
+        border: 2px solid;
+        border-radius: 50px;
+  
+        padding: 13px 62px;
+
+        transition: all ease 0.4s;
+        &:hover{
+          border-color: $color-three;
+          box-shadow:0px 25px 45px rgba(245, 56, 56, 0.35);
+          color: #fff;
+          background-color: $color-three;
+          ;
+        }
+      }
+    }
+  }
+ 
 }
